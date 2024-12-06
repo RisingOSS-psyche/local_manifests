@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="hardware/xiaomi" name="RisingOSS-psyche/hardware_xiaomi" revision="RisingOS15" />
+    <project path="kernel/xiaomi/sm8250" name="RisingOSS-psyche/kernel_xiaomi_sm8250" revision="RisingOS15" />
+    <project path="device/xiaomi/sm8250-common" name="RisingOSS-psyche/device_xiaomi_sm8250-common" revision="RisingOS15" />
+    <project path="device/xiaomi/psyche" name="RisingOSS-psyche/device_xiaomi_psyche" revision="lineage-22.0" />
+    <project path="vendor/xiaomi/sm8250-common" name="RisingOSS-psyche/vendor_xiaomi_sm8250-common" revision="RisingOS15" />
+    <project path="vendor/xiaomi/psyche" name="RisingOSS-psyche/vendor_xiaomi_psyche" revision="RisingOS15" />
+    <remove-project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" />
+    <project path="hardware/qcom-caf/sm8250/display" name="RisingOSS-psyche/android_hardware_qcom_display" revision="lineage-22.0-caf-sm8250" />
+</manifest>
